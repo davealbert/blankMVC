@@ -1,0 +1,290 @@
+body {
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding:0;
+    background-color: #eeeeee;
+    font-family: Helvetica, sans-serif;
+    font-size:14px;
+}
+.left10{
+    padding-left:50px;
+}
+.assigned{
+    color:white;
+}
+
+.space{
+    padding-left:20px;
+    font-size:20px;
+}
+.head{
+    border:grey solid 1px;
+    margin:20px;
+    margin-top:60px;
+    padding:10px;
+    padding-right:20px;
+}
+.headlabel{
+    background:#fff url(http://intranet/images/form.gif) repeat-x top left;
+    padding:5px;
+    font-size:20px;
+    position:relative;
+    top:-21px;
+}
+.mast{
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 200px;
+
+}
+A:link {text-decoration: none; color:#800000}
+A:visited {text-decoration: none; color:#800000}
+A:active {text-decoration: none; color:#800000}
+A:hover {text-decoration: underline; color: #800000}
+#formpop{
+    background: url(http://intranet/bedboard/images/box.png) no-repeat;
+    width: 450px;
+    height: 425px;
+    margin: 0 auto;
+    display: none;
+    position: absolute; z-index: 11000;
+}
+
+#logolink{
+    background-image: url(http://intranet/bedboard/images/home_banner_small.jpg);
+    background-repeat: no-repeat;
+    display:block;
+    height:100px;
+    text-indent:-9999px;
+    width:100px;
+}
+
+#header {
+    background-color: #002D61;
+    padding: 0%;
+    height:1%;
+}
+
+#main {
+    background: url(http://intranet/bedboard/images/bg-fade-down-9x10.png) repeat-x scroll top;
+    padding: 1%;
+    overflow: auto;
+
+
+}
+#foot{
+    height:10%;
+}
+
+form#two {
+    background:#ccc;
+    width:470px;
+    padding:10px;
+    border:1px solid #000;
+    margin:0 auto;
+}
+
+form#two fieldset {
+    width:450px;
+    display:block;
+    border:1px solid #fff;
+    padding:5px;
+    font-family:verdana, sans-serif;
+    margin-bottom:0.5em;
+    line-height:1.5em;
+}
+
+
+
+* html form#two fieldset#personal, * html form#two fieldset#medical {
+    background-position:400px 20px;
+}
+
+* html form#two fieldset#current {
+    background-position:390px 20px;
+}
+
+form#two fieldset#opt {
+    background:#9EC0EB;
+}
+
+form#two legend {
+    font-family:georgia, sans-serif;
+    font-size:1.1em;
+    font-weight:bold;
+    border:3px solid #fff;
+    margin-bottom:5px;
+    padding:3px;
+    width:254px;
+    background:#fff url(http://intranet/bedboard/images/form.gif) repeat-x center left;
+}
+
+form#two label {
+    clear:left;
+    display:block;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding-right:10px;
+    color:#888;
+    margin-bottom:0.5em;
+}
+
+form#two input {
+    border:1px solid #fff;
+    background:#fff url(http://intranet/bedboard/images/form.gif) repeat-x top left;
+    padding-left:0.5em;
+    margin-bottom:0.6em;
+}
+
+
+form#two select {
+    border:1px solid #fff;
+    background:#fff url(http://intranet/bedboard/images/form.gif) repeat-x top left;
+    padding-left:0.5em;
+    margin-bottom:0.6em;
+
+}
+
+form#two textarea {
+
+    border:1px solid #fff;
+    padding:0.5em;
+    overflow:auto;
+    background:#fff url(http://intranet/bedboard/images/form.gif) repeat-x bottom left;
+}
+
+form#two option {
+    background:#eee; color:#000;
+}
+
+form#two optgroup {
+    background:#abb;
+    color:#000;
+    font-family:georgia, serif;
+}
+
+form#two optgroup option {
+    background:#9aa; color:#fff;
+}
+
+form#two #button1, form#two #button2 {
+    color:#002D61;
+    padding-right:0.5em;
+    cursor:pointer;
+    width:205px;
+    margin-left:8px;
+}
+
+form#two #button1:hover, form#two #button2:hover {
+    background-position:center left;
+    color:#000;
+}
+
+form#two a:link,form#two a:visited  {
+    color:#002D61;
+    background:#fff url(http://intranet/bedboard/images/form.gif) repeat-x top left;
+    padding-right:0.5em;
+    cursor:pointer;
+    width:205px;
+    margin-left:8px;
+    text-decoration : none;
+}
+
+form#two a:hover {
+    background-position:center left;
+    color:#000;
+
+}
+
+
+
+em#error{
+    color:#F00;
+    font-size:75%;
+}
+
+.suggestionsBox {
+    position: relative;
+    left: 30px;
+    margin: 10px 0px 0px 0px;
+    width: 300px;
+    background-color: #003366;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 2px solid #003366;
+    color: #fff;
+}
+
+.suggestionList {
+    margin: 0px;
+    padding: 0px;
+}
+
+.suggestionList li {
+
+    margin: 0px 0px 3px 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.suggestionList li:hover {
+    background-color: #659CD8;
+}
+
+A.headlink:link {text-decoration: none; color:#800000; padding-left:20px;}
+A.headlink:visited {text-decoration: none; color:#800000; padding-left:20px;}
+A.headlink:active {text-decoration: none; color:#800000; padding-left:20px;}
+A.headlink:hover {text-decoration: underline; color: #800000; padding-left:20px;}
+
+
+
+
+
+
+
+
+
+#overlay {
+    background: #000;
+    position: absolute; top: 0; left: 0;
+    z-index: 10000;
+    width: 100%;
+}
+
+.prettyPopin {
+    display: none;
+    overflow: hidden;
+    position: absolute; z-index: 11000;
+    top: 50%; left: 50%;
+    background: url(http://intranet/bedboard/images/prettyPopin/popinLeft.gif) bottom left no-repeat;
+}
+
+.prettyPopin a#b_close {
+    display: none;
+    position: absolute; z-index: 2;
+    top: 10px; right: 13px;
+    width: 41px; height: 9px;
+    text-indent: -10000px;
+    background: url(http://intranet/bedboard/images/prettyPopin/b_close.gif) bottom left no-repeat;
+}
+
+.prettyPopin .prettyContent {
+    position: relative;
+    width: 100%; height: 100%;
+    font-size: 1.2em;
+    background: url(http://intranet/bedboard/images/prettyPopin/popinRight.gif) bottom right no-repeat;
+}
+
+.prettyPopin .prettyContent .prettyContent-container {
+    display: none;
+    padding: 20px 15px 15px 15px;
+}
+
+.prettyPopin .prettyContent .loader {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -14px 0 0 -14px;
+}

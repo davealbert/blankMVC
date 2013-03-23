@@ -1,0 +1,3 @@
+RewriteEngine on 
+RewriteCond $1 !^(images|css|favicon\.ico|robots\.txt|index\.php) [NC]
+RewriteRule ^(.*)$ /blankMVC/index.php/$1 [L]
